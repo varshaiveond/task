@@ -1,0 +1,44 @@
+.bg-image-1{
+    background-image: url(bg3.jpg);
+}
+.text-size-1{
+    font-size: 18px;
+}
+
+.bg-img-4{
+    background-image: url(bg5.jpg);
+}
+
+.input-style input{
+    accent-color: pink;
+
+}
+
+.c-img{
+    max-height: 150px;
+}
+a:hover{
+    background-color: greenyellow;
+}
+.card{
+    border: 0rem;
+    background-color: #001f2c;
+}
+.card-header{
+    border: 0rem;
+    background-color:#001f2c;
+}
+.approch{
+   background-color: #001f2c;
+}
+.card-body{
+    background-color: #01344a;
+    color: aliceblue;
+    border-radius: 30rem;
+}
+.padding{
+    padding-top: 2.8rem;
+}
+.rounded{
+       border-radius: 40rem!important;
+}

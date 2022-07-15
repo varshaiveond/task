@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+    height: 150px;
+   
+    /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    
+  }
+  .col1{
+    background-image:url(bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+  footer {
+    text-align: center;
+    padding: 3px;
+    background-color:rgb(45, 44, 44);
+    color: white;
+  }
+  .top {
+    text-align: center;
+    padding: 5px;
+
+    background-color: #191970;
+    color: white;
+  }
+  .btn-white{
+    background-color: #F5FFFA;
+  }
+  .header {
+    text-align: center;
+    padding: 3px;
+    color: white;
+    background-image:url(bg3.jpg);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45vh;
+  }
+  .body {
+    text-align: center;
+    padding: 2px;
+    background-color: rgb(150, 104, 128);
+    color: white;
+  }
+  .middel {
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(104, 129, 150);
+    color: white;
+  }
